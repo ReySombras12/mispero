@@ -4,27 +4,29 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-An educational single-page web project (*"Proyecto Educativo sobre el Míspero"*, 2025) focused on raising environmental awareness, celebrating local natural heritage, and promoting sustainable habits around the *míspero* (loquat/medlar).
+Proyecto web educativo de una sola página (*"Proyecto Educativo sobre el Míspero"*, 2025), conservado dentro de mi portafolio de proyectos académicos como estudiante de **Ingeniería en Sistemas Computacionales** (Ricardo Rojas).
 
-## Technologies Used
+El sitio busca generar conciencia ambiental, valorar el patrimonio natural local y promover hábitos sostenibles alrededor del míspero, presentando la información de manera clara y amigable para todo público.
 
-- **HTML5** — Semantic single-page document structure (`header`, `main`, `section`, `footer`)
-- **CSS3** — Embedded responsive styling with an earth-toned editorial palette
-- **JavaScript** — Interactive cover-to-content transition
+## Tecnologías utilizadas
 
-## Key Features
+- **HTML5**: Estructura semántica en un único documento (`header`, `main`, `section`, `footer`).
+- **CSS3**: Estilos responsivos integrados en el mismo archivo, con una paleta editorial en tonos cálidos y naturales.
+- **JavaScript**: Lógica ligera para la transición interactiva entre la pantalla de portada y el contenido del artículo.
 
-- **Interactive Cover Screen**: Features cover imagery (`Port_1.jpg`, `Port_2.jpg`) and an entry button (`.boton-entrar`) that reveals the main educational article.
-- **Educational Content Sections**: Discusses environmental conservation, local biodiversity, water care, and responsible consumption.
-- **Clean Editorial Layout**: Readable typography and warm, nature-inspired color scheme (`#f9f7f1` background with `#588157` green accents).
+## Características principales
 
-## Authors
+- **Pantalla de portada interactiva**: Incluye imágenes de portada (`Port_1.jpg`, `Port_2.jpg`) y un botón de entrada (`.boton-entrar`) que da paso al artículo educativo principal.
+- **Secciones educativas**: Aborda temas de conservación ambiental, biodiversidad local, cuidado del agua y consumo responsable.
+- **Diseño editorial limpio**: Tipografía pensada para una lectura cómoda y combinación de colores inspirada en la naturaleza (fondo `#f9f7f1` con acentos en verde `#588157`).
+
+## Autores
 
 - Camacho Bedolla Juan Román
 - Ceja Balderas Samantha
 - Rodríguez Rodríguez Owen Yosafat
 
-## Project Structure
+## Estructura del proyecto
 
 ```text
 mispero/
@@ -34,10 +36,14 @@ mispero/
 └── README.md
 ```
 
-## How to Run
+## Cómo probarlo en tu computadora
 
-1. Clone the repository:
+1. Clona el repositorio en tu equipo:
    ```bash
    git clone https://github.com/ReySombras12/mispero.git
    ```
-2. Open `index.html` directly in any modern web browser.
+2. Abre el archivo `index.html` directamente en cualquier navegador web moderno.
+
+## Aprendizajes y retos
+
+El reto principal de este proyecto fue lograr una experiencia de lectura atractiva y fluida dentro de una sola página autocontenida, cuidando el equilibrio entre las imágenes de portada, la transición con JavaScript y la legibilidad del contenido en distintas pantallas sin depender de herramientas externas.
